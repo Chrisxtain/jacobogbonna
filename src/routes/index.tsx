@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Download } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import portrait from "@/assets/carmen-portrait.jpg";
 import { HeroDashboard } from "@/components/site/HeroDashboard";
 import { Reveal } from "@/components/site/Reveal";
