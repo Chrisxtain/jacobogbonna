@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { motion } from "framer-motion";
-import { ArrowUpRight, Download } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 import portrait from "@/assets/carmen-portrait.jpg";
 import { HeroDashboard } from "@/components/site/HeroDashboard";
 import { Reveal } from "@/components/site/Reveal";
@@ -9,13 +9,13 @@ import { caseStudies, expertise, insights, site } from "@/lib/site-data";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Carmen Fuentes — Business Intelligence & Analytics Consultant" },
+      { title: "JACOB OGBONNA — Business Intelligence & Analytics Consultant" },
       {
         name: "description",
         content:
           "Helping organizations uncover actionable insights through analytics, business intelligence, forecasting, and modern data visualization.",
       },
-      { property: "og:title", content: "Carmen Fuentes — Business Intelligence & Analytics" },
+      { property: "og:title", content: "JACOB OGBONNA — Business Intelligence & Analytics" },
       {
         property: "og:description",
         content:
@@ -90,13 +90,6 @@ function Home() {
                   Explore case studies
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </Link>
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-5 py-3 text-[14px] font-medium text-ink transition-colors hover:bg-secondary"
-                >
-                  <Download className="h-4 w-4" />
-                  Download resume
-                </a>
               </motion.div>
 
               <motion.div
@@ -131,14 +124,14 @@ function Home() {
               >
                 <img
                   src={portrait}
-                  alt="Portrait of Carmen Fuentes, Business Intelligence consultant"
+                  alt="Portrait of JACOB OGBONNA, Business Intelligence consultant"
                   width={1024}
                   height={1280}
                   className="h-full w-full object-cover"
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/40 to-transparent p-5">
                   <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/80">
-                    Carmen Fuentes · New York
+                    JACOB OGBONNA
                   </p>
                 </div>
               </motion.div>

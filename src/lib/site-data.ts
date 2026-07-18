@@ -1,7 +1,7 @@
 export const site = {
-  name: "Carmen Fuentes",
+  name: "JACOB OGBONNA",
   role: "Business Intelligence & Analytics Consultant",
-  email: "carmen20fuentez@gmail.com",
+  email: "jogbonna2026@gmail.com",
   location: "New York, USA · Remote worldwide",
   linkedin: "https://www.linkedin.com/in/carmen-fuentes-8896b841a/",
   tagline: "Turning complex data into confident business decisions.",
@@ -21,8 +21,8 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "Peak Value Real Estate Group",
-    role: "Data Analyst",
-    period: "2025 — Present",
+    role: "Senior Data Analyst",
+    period: "June 2016 — Present",
     location: "Remote · New York, USA",
     challenge:
       "A regional real estate investment group needed clearer visibility into market trends, price shifts, and acquisition opportunities across Columbus, Cleveland, and Cincinnati to move faster than competing buyers.",

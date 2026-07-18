@@ -41,7 +41,7 @@ export function Nav() {
             CF
           </span>
           <span className="hidden font-display text-[15px] font-medium tracking-tight text-ink sm:inline">
-            Carmen Fuentes
+            JACOB OGBONNA
           </span>
         </Link>
 

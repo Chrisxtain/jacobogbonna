@@ -6,13 +6,13 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/case-studies/")({
   head: () => ({
     meta: [
-      { title: "Case Studies — Carmen Fuentes" },
+      { title: "Case Studies — JACOB OGBONNA" },
       {
         name: "description",
         content:
           "Portfolio case studies inspired by public data: housing intelligence, executive KPI dashboards, sales performance, customer segmentation, and retail analytics.",
       },
-      { property: "og:title", content: "Case Studies — Carmen Fuentes" },
+      { property: "og:title", content: "Case Studies — JACOB OGBONNA" },
       {
         property: "og:description",
         content:

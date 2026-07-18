@@ -14,7 +14,7 @@ export const Route = createFileRoute("/case-studies/$slug")({
     const s = loaderData?.study;
     return {
       meta: [
-        { title: s ? `${s.title} — Carmen Fuentes` : "Case Study" },
+        { title: s ? `${s.title} — JACOB OGBONNA` : "Case Study" },
         { name: "description", content: s?.subtitle ?? "" },
         { property: "og:title", content: s?.title ?? "Case Study" },
         { property: "og:description", content: s?.subtitle ?? "" },

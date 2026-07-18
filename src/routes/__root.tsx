@@ -81,32 +81,32 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Carmen Fuentes — Business Intelligence & Analytics Consultant" },
+      { title: "JACOB OGBONNA — Business Intelligence & Analytics Consultant" },
       {
         name: "description",
         content:
-          "Carmen Fuentes helps organizations turn complex data into confident business decisions through analytics, business intelligence, forecasting, and modern data visualization.",
+          "JACOB OGBONNA helps organizations turn complex data into confident business decisions through analytics, business intelligence, forecasting, and modern data visualization.",
       },
-      { name: "author", content: "Carmen Fuentes" },
+      { name: "author", content: "JACOB OGBONNA" },
       {
         name: "keywords",
         content:
           "Business Intelligence, Data Analytics, Power BI, Tableau, SQL, Python, Dashboard Development, Data Visualization, Forecasting, Executive Reporting, Analytics Consultant",
       },
-      { property: "og:title", content: "Carmen Fuentes — Business Intelligence & Analytics Consultant" },
+      { property: "og:title", content: "JACOB OGBONNA — Business Intelligence & Analytics Consultant" },
       {
         property: "og:description",
         content:
           "Turning complex data into confident business decisions through analytics, BI, and modern data visualization.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Carmen Fuentes" },
+      { property: "og:site_name", content: "JACOB OGBONNA" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#F8FAFC" },
-      { name: "twitter:title", content: "Carmen Fuentes — Business Intelligence & Analytics Consultant" },
-      { name: "description", content: "Carmen Fuentes' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
-      { property: "og:description", content: "Carmen Fuentes' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
-      { name: "twitter:description", content: "Carmen Fuentes' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
+      { name: "twitter:title", content: "JACOB OGBONNA — Business Intelligence & Analytics Consultant" },
+      { name: "description", content: "JACOB OGBONNA' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
+      { property: "og:description", content: "JACOB OGBONNA' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
+      { name: "twitter:description", content: "JACOB OGBONNA' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
       { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/877d375e-b8a2-4196-972f-1efb31ff360a/id-preview-dc084806--edfbd220-cbd4-4351-b9c6-704031e43cf5.lovable.app-1782737937799.png" },
       { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/877d375e-b8a2-4196-972f-1efb31ff360a/id-preview-dc084806--edfbd220-cbd4-4351-b9c6-704031e43cf5.lovable.app-1782737937799.png" },
     ],
@@ -125,7 +125,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         children: JSON.stringify({
           "@context": "https://schema.org",
           "@type": "Person",
-          name: "Carmen Fuentes",
+          name: "JACOB OGBONNA",
           jobTitle: "Business Intelligence & Analytics Consultant",
           description:
             "Business Intelligence professional specializing in analytics, data visualization, forecasting, and executive reporting.",

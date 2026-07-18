@@ -13,7 +13,7 @@ export const Route = createFileRoute("/insights/$slug")({
     const a = loaderData?.article;
     return {
       meta: [
-        { title: a ? `${a.title} — Carmen Fuentes` : "Insight" },
+        { title: a ? `${a.title} — JACOB OGBONNA` : "Insight" },
         { name: "description", content: a?.excerpt ?? "" },
         { property: "og:title", content: a?.title ?? "" },
         { property: "og:description", content: a?.excerpt ?? "" },

@@ -5,13 +5,13 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/experience")({
   head: () => ({
     meta: [
-      { title: "Experience — Carmen Fuentes" },
+      { title: "Experience — JACOB OGBONNA" },
       {
         name: "description",
         content:
           "Selected consulting engagements: business challenge, approach, technologies, and business outcome.",
       },
-      { property: "og:title", content: "Experience — Carmen Fuentes" },
+      { property: "og:title", content: "Experience — JACOB OGBONNA" },
       {
         property: "og:description",
         content:

@@ -6,17 +6,17 @@ import { ArrowUpRight } from "lucide-react";
 export const Route = createFileRoute("/about")({
   head: () => ({
     meta: [
-      { title: "About — Carmen Fuentes" },
+      { title: "About — JACOB OGBONNA" },
       {
         name: "description",
         content:
-          "Carmen Fuentes is a Business Intelligence consultant who treats analytics as a craft of decision design. Read about her approach, philosophy, and how she creates business value.",
+          "JACOB OGBONNA is a Business Intelligence consultant who treats analytics as a craft of decision design. Read about her approach, philosophy, and how she creates business value.",
       },
-      { property: "og:title", content: "About Carmen Fuentes" },
+      { property: "og:title", content: "About JACOB OGBONNA" },
       {
         property: "og:description",
         content:
-          "Analytics as a craft of decision design. The philosophy behind Carmen Fuentes' consulting practice.",
+          "Analytics as a craft of decision design. The philosophy behind JACOB OGBONNA' consulting practice.",
       },
       { property: "og:url", content: "/about" },
     ],
@@ -49,7 +49,7 @@ function About() {
               <div className="aspect-[4/5] overflow-hidden rounded-3xl bg-secondary shadow-soft">
                 <img
                   src={portrait}
-                  alt="Carmen Fuentes"
+                  alt="JACOB OGBONNA"
                   width={1024}
                   height={1280}
                   loading="lazy"
