@@ -38,7 +38,7 @@ export function Nav() {
       <div className="container-editorial flex h-16 items-center justify-between">
         <Link to="/" className="group flex items-center gap-2.5">
           <span className="grid h-8 w-8 place-items-center rounded-md bg-primary font-display text-sm font-semibold tracking-tight text-primary-foreground">
-            CF
+            JO
           </span>
           <span className="hidden font-display text-[15px] font-medium tracking-tight text-ink sm:inline">
             JACOB OGBONNA
