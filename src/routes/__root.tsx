@@ -1,0 +1,180 @@
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import {
+  Outlet,
+  Link,
+  createRootRouteWithContext,
+  useRouter,
+  HeadContent,
+  Scripts,
+} from "@tanstack/react-router";
+import { useEffect, type ReactNode } from "react";
+
+import appCss from "../styles.css?url";
+import { reportLovableError } from "../lib/lovable-error-reporting";
+import { Nav } from "../components/site/Nav";
+import { Footer } from "../components/site/Footer";
+import { ScrollProgress } from "../components/site/ScrollProgress";
+
+function NotFoundComponent() {
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-6">
+      <div className="max-w-md text-center">
+        <p className="eyebrow">Error 404</p>
+        <h1 className="mt-3 font-display text-5xl font-medium tracking-tight text-ink">
+          Page not found
+        </h1>
+        <p className="mt-3 text-[15px] text-muted-foreground">
+          The page you're looking for doesn't exist or has moved.
+        </p>
+        <Link
+          to="/"
+          className="mt-7 inline-flex items-center justify-center rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground"
+        >
+          Back to home
+        </Link>
+      </div>
+    </div>
+  );
+}
+
+function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
+  console.error(error);
+  const router = useRouter();
+  useEffect(() => {
+    reportLovableError(error, { boundary: "tanstack_root_error_component" });
+  }, [error]);
+
+  return (
+    <div className="flex min-h-screen items-center justify-center bg-background px-6">
+      <div className="max-w-md text-center">
+        <p className="eyebrow">Something went wrong</p>
+        <h1 className="mt-3 font-display text-3xl font-medium tracking-tight text-ink">
+          This page didn't load
+        </h1>
+        <p className="mt-3 text-[15px] text-muted-foreground">
+          Try refreshing, or head back home.
+        </p>
+        <div className="mt-7 flex justify-center gap-2">
+          <button
+            onClick={() => {
+              router.invalidate();
+              reset();
+            }}
+            className="rounded-full bg-primary px-5 py-2.5 text-sm font-medium text-primary-foreground"
+          >
+            Try again
+          </button>
+          <a
+            href="/"
+            className="rounded-full border border-border px-5 py-2.5 text-sm font-medium text-ink"
+          >
+            Home
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
+  head: () => ({
+    meta: [
+      { charSet: "utf-8" },
+      { name: "viewport", content: "width=device-width, initial-scale=1" },
+      { title: "Carmen Fuentes — Business Intelligence & Analytics Consultant" },
+      {
+        name: "description",
+        content:
+          "Carmen Fuentes helps organizations turn complex data into confident business decisions through analytics, business intelligence, forecasting, and modern data visualization.",
+      },
+      { name: "author", content: "Carmen Fuentes" },
+      {
+        name: "keywords",
+        content:
+          "Business Intelligence, Data Analytics, Power BI, Tableau, SQL, Python, Dashboard Development, Data Visualization, Forecasting, Executive Reporting, Analytics Consultant",
+      },
+      { property: "og:title", content: "Carmen Fuentes — Business Intelligence & Analytics Consultant" },
+      {
+        property: "og:description",
+        content:
+          "Turning complex data into confident business decisions through analytics, BI, and modern data visualization.",
+      },
+      { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Carmen Fuentes" },
+      { name: "twitter:card", content: "summary_large_image" },
+      { name: "theme-color", content: "#F8FAFC" },
+      { name: "twitter:title", content: "Carmen Fuentes — Business Intelligence & Analytics Consultant" },
+      { name: "description", content: "Carmen Fuentes' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
+      { property: "og:description", content: "Carmen Fuentes' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
+      { name: "twitter:description", content: "Carmen Fuentes' digital platform positions her as a leading authority in data analytics and strategic decision-making." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/877d375e-b8a2-4196-972f-1efb31ff360a/id-preview-dc084806--edfbd220-cbd4-4351-b9c6-704031e43cf5.lovable.app-1782737937799.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/877d375e-b8a2-4196-972f-1efb31ff360a/id-preview-dc084806--edfbd220-cbd4-4351-b9c6-704031e43cf5.lovable.app-1782737937799.png" },
+    ],
+    links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
+      },
+      { rel: "stylesheet", href: appCss },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Carmen Fuentes",
+          jobTitle: "Business Intelligence & Analytics Consultant",
+          description:
+            "Business Intelligence professional specializing in analytics, data visualization, forecasting, and executive reporting.",
+          knowsAbout: [
+            "Business Intelligence",
+            "Data Analytics",
+            "Power BI",
+            "Tableau",
+            "SQL",
+            "Python",
+            "Snowflake",
+            "Data Visualization",
+            "Forecasting",
+          ],
+        }),
+      },
+    ],
+  }),
+  shellComponent: RootShell,
+  component: RootComponent,
+  notFoundComponent: NotFoundComponent,
+  errorComponent: ErrorComponent,
+});
+
+function RootShell({ children }: { children: ReactNode }) {
+  return (
+    <html lang="en">
+      <head>
+        <HeadContent />
+      </head>
+      <body>
+        {children}
+        <Scripts />
+      </body>
+    </html>
+  );
+}
+
+function RootComponent() {
+  const { queryClient } = Route.useRouteContext();
+
+  return (
+    <QueryClientProvider client={queryClient}>
+      <ScrollProgress />
+      <Nav />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </QueryClientProvider>
+  );
+}
