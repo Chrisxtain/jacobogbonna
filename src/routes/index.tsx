@@ -131,7 +131,7 @@ function Home() {
                 />
                 <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-ink/40 to-transparent p-5">
                   <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-white/80">
-                    JACOB OGBONNA · New York
+                    JACOB OGBONNA
                   </p>
                 </div>
               </motion.div>
