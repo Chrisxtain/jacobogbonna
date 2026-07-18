@@ -15,11 +15,11 @@ export const Route = createFileRoute("/")({
         content:
           "Helping organizations uncover actionable insights through analytics, business intelligence, forecasting, and modern data visualization.",
       },
-      { property: "og:title", content: "JACOB OGBONNA — Business Intelligence & Analytics" },
+      { property: "og:title", content: "JACOB OGBONNA — Business Intelligence & Analytics Consultant" },
       {
         property: "og:description",
         content:
-          "Turning complex data into confident business decisions. Analytics, BI, forecasting, and executive reporting.",
+          "Helping organizations uncover actionable insights through analytics, business intelligence, forecasting, and modern data visualization.",
       },
       { property: "og:url", content: "/" },
     ],
