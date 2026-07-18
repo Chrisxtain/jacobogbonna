@@ -6,13 +6,13 @@ import { Reveal } from "@/components/site/Reveal";
 export const Route = createFileRoute("/insights/")({
   head: () => ({
     meta: [
-      { title: "Insights — Carmen Fuentes" },
+      { title: "Insights — JACOB OGBONNA" },
       {
         name: "description",
         content:
           "Editorial essays on business intelligence, dashboard design, data storytelling, forecasting, and decision design.",
       },
-      { property: "og:title", content: "Insights — Carmen Fuentes" },
+      { property: "og:title", content: "Insights — JACOB OGBONNA" },
       {
         property: "og:description",
         content:

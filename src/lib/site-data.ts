@@ -1,7 +1,7 @@
 export const site = {
-  name: "Carmen Fuentes",
+  name: "JACOB OGBONNA",
   role: "Business Intelligence & Analytics Consultant",
-  email: "carmen20fuentez@gmail.com",
+  email: "jogbonna2026@gmail.com",
   location: "New York, USA · Remote worldwide",
   linkedin: "https://www.linkedin.com/in/carmen-fuentes-8896b841a/",
   tagline: "Turning complex data into confident business decisions.",

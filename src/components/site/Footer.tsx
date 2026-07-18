@@ -58,7 +58,7 @@ export function Footer() {
         </div>
 
         <div className="mt-14 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 text-[12.5px] text-muted-foreground sm:flex-row sm:items-center">
-          <p>© {new Date().getFullYear()} Carmen Fuentes. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} JACOB OGBONNA. All rights reserved.</p>
           <p className="font-mono uppercase tracking-[0.2em]">
             Analytics · Business Intelligence · Decision Support
           </p>
