@@ -21,8 +21,8 @@ export type Experience = {
 export const experiences: Experience[] = [
   {
     company: "Peak Value Real Estate Group",
-    role: "Data Analyst",
-    period: "2025 — Present",
+    role: "Senior Data Analyst",
+    period: "June 2016 — Present",
     location: "Remote · New York, USA",
     challenge:
       "A regional real estate investment group needed clearer visibility into market trends, price shifts, and acquisition opportunities across Columbus, Cleveland, and Cincinnati to move faster than competing buyers.",
