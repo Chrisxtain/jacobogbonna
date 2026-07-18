@@ -90,13 +90,6 @@ function Home() {
                   Explore case studies
                   <ArrowUpRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
                 </Link>
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-1.5 rounded-full border border-border bg-card px-5 py-3 text-[14px] font-medium text-ink transition-colors hover:bg-secondary"
-                >
-                  <Download className="h-4 w-4" />
-                  Download resume
-                </a>
               </motion.div>
 
               <motion.div
