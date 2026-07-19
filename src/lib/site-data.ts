@@ -3,7 +3,7 @@ export const site = {
   role: "Business Intelligence & Analytics Consultant",
   email: "jogbonna2026@gmail.com",
   location: "New York, USA · Remote worldwide",
-  linkedin: "https://www.linkedin.com/in/carmen-fuentes-8896b841a/",
+  linkedin: "https://www.linkedin.com/in/jacob-ogbonna-b048b846/",
   tagline: "Turning complex data into confident business decisions.",
 };
 
