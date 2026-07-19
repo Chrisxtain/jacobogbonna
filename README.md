@@ -10,7 +10,7 @@ The experience is premium, editorial, and minimal — inspired by the craft of A
 
 This is **not** a portfolio website. It is a long-term personal brand platform that:
 
-- Positions Carmen as an industry expert.
+- Positions Jacob as an industry expert.
 - Helps recruiters immediately understand her value.
 - Attracts freelance consulting opportunities.
 - Builds trust through thoughtful storytelling.
@@ -19,7 +19,7 @@ This is **not** a portfolio website. It is a long-term personal brand platform t
 
 The central message is:
 
-> **“Carmen transforms complex data into confident business decisions.”**
+> **“Jacob transforms complex data into confident business decisions.”**
 
 ---
 
