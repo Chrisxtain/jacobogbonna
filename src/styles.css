@@ -177,7 +177,7 @@
 }
 
 @utility glass-panel {
-  background: color-mix(in oklch, white 70%, transparent);
+  background: color-mix(in oklch, var(--color-card) 70%, transparent);
   backdrop-filter: blur(20px) saturate(140%);
   border: 1px solid color-mix(in oklch, var(--color-border) 80%, transparent);
   box-shadow: var(--shadow-glass);
