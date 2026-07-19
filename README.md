@@ -1,6 +1,6 @@
 # Jacob Ogbonna — Personal Brand Platform
 
-A world-class digital personal brand website for **Carmen Fuentes**, a Business Intelligence Professional, Data Analytics Specialist, and Data Storyteller. This platform is designed to position Carmen as a trusted authority in data analytics, business intelligence, data visualization, and strategic decision-making.
+A world-class digital personal brand website for **Jacob Ogbonna**, a Business Intelligence Professional, Data Analytics Specialist, and Data Storyteller. This platform is designed to position Jacob as a trusted authority in data analytics, business intelligence, data visualization, and strategic decision-making.
 
 The experience is premium, editorial, and minimal — inspired by the craft of Apple, Stripe, Linear, Vercel, Arc Browser, Notion, and Bloomberg. It is built to feel like a high-end SaaS landing page combined with an executive consulting presence.
 
@@ -316,9 +316,9 @@ It avoids generic, robotic, or overly promotional language. Every sentence reinf
 
 The visitor should leave the site believing:
 
-> **“I want Carmen solving my business problems.”**
+> **“I want Jacob solving my business problems.”**
 
-This is a timeless digital experience built to grow with Carmen’s career and to compete with the best personal brand websites on the web.
+This is a timeless digital experience built to grow with Jacobs’s career and to compete with the best personal brand websites on the web.
 
 ---
 
