@@ -66,7 +66,8 @@ export function Nav() {
           })}
         </nav>
 
-        <div className="hidden md:block">
+        <div className="hidden items-center gap-2 md:flex">
+          <ThemeToggle />
           <Link
             to="/contact"
             className="inline-flex items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-[13.5px] font-medium text-primary-foreground transition-transform hover:-translate-y-0.5"
@@ -74,6 +75,9 @@ export function Nav() {
             Book a conversation
           </Link>
         </div>
+
+        <div className="flex items-center gap-2 md:hidden">
+          <ThemeToggle />
 
         <button
           aria-label="Toggle menu"
