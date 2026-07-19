@@ -1,4 +1,4 @@
-# Carmen Fuentes — Personal Brand Platform
+# Jacob Ogbonna — Personal Brand Platform
 
 A world-class digital personal brand website for **Carmen Fuentes**, a Business Intelligence Professional, Data Analytics Specialist, and Data Storyteller. This platform is designed to position Carmen as a trusted authority in data analytics, business intelligence, data visualization, and strategic decision-making.
 
