@@ -11,7 +11,7 @@ The experience is premium, editorial, and minimal — inspired by the craft of A
 This is **not** a portfolio website. It is a long-term personal brand platform that:
 
 - Positions Jacob as an industry expert.
-- Helps recruiters immediately understand her value.
+- Helps recruiters immediately understand his value.
 - Attracts freelance consulting opportunities.
 - Builds trust through thoughtful storytelling.
 - Demonstrates professionalism and executive presence.
@@ -87,7 +87,7 @@ The central message is:
 | File | URL | Purpose |
 |---|---|---|
 | `src/routes/index.tsx` | `/` | Home — hero, philosophy, expertise |
-| `src/routes/about.tsx` | `/about` | Story-first narrative about Carmen |
+| `src/routes/about.tsx` | `/about` | Story-first narrative about Jacob |
 | `src/routes/experience.tsx` | `/experience` | Consulting-style vertical timeline |
 | `src/routes/case-studies.tsx` | `/case-studies` | Case study index |
 | `src/routes/case-studies.$slug.tsx` | `/case-studies/:slug` | Individual case study |
@@ -109,7 +109,7 @@ The central message is:
 - Secondary CTA: **Download Resume**.
 
 ### About
-- Story-first narrative focused on Carmen’s analytical mindset, problem-solving approach, and philosophy of driving business value through data.
+- Story-first narrative focused on Jacob’s analytical mindset, problem-solving approach, and philosophy of driving business value through data.
 - Does not repeat the resume.
 
 ### Experience
@@ -293,8 +293,7 @@ bunx tsc --noEmit
 
 This project is designed to be deployed on Lovable Cloud.
 
-- **Preview URL:** `https://id-preview--edfbd220-cbd4-4351-b9c6-704031e43cf5.lovable.app`
-- **Published URL:** `https://carmenfuentes.lovable.app`
+- **Live URL:** `https://jacobogbonna.vercel.app`
 
 ---
 
@@ -324,7 +323,7 @@ This is a timeless digital experience built to grow with Jacobs’s career and t
 
 ## 📬 Contact
 
-For consulting inquiries or opportunities, the contact form on the site is the fastest way to reach Carmen.
+For consulting inquiries or opportunities, the contact form on the site is the fastest way to reach Jacob.
 
 ---
 
